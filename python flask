@@ -1,5 +1,9 @@
 from flask import flask
 app = flask(_name_)
+
 @app.route('/')
-def index():
-return app.make_response('hello universe!')
+def helllo_world():
+return 'Hello,World!'
+
+if_name_--'_main_'
+app.run()
